@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Home BG</title>
+
+</head>
+<body class="tudao">
+ 
+ <header class="cabeca">
+    <div class="container">
+      <input type="checkbox" id="menu" class="constainer_botao">
+      <label for="menu">
+       <span class="cabeca_menu-comprimido container_imagem" ></span>
+      </label>
+      <ul class="lista-menu">
+              <!-- preciso deixar acessivel as "li" -->
+         <li class="lista-menu_titulo">Categorias</li>
+         
+         <li class="lista-menu_item">
+            <a href="https://youtube.com/@yuronoa190?si=rHDbjZ8AI_gfR3e4" 
+            class="lista-menu_link">Ramon: front-end</a>
+         </li>
+         
+         <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Breno: back-end</a>
+         </li>
+         
+         <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Mateus: dev-IA's</a>
+         </li>
+         
+         <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Paiva: ciência d'dados</a>
+         </li>
+         
+         <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Marcos: hardware</a>
+         </li>
+         <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Pedro: Java</a>
+         </li>
+      </ul>
+
+       <img src="imagens/logo-bg.png" alt="logo" class="container_imagem">
+    </div>
+    
+    <div class="container">
+      <a href="#"> <img src="imagens/Favoritos.png" alt="fav" class="container_imagem"></a>
+      <a href="#"> <img src="imagens/Sacola.png" alt="saco" class="container_imagem"></a>
+      <a href="#"> <img src="imagens/Usuario.png" alt="Usuario" class="container_imagem"></a>
+    </div>
+ </header>
+ <section class="baner">
+   <h2 class="baner_titulo">Já sabe por onde começar?</h2>
+   <p class="baner_texto">Encontre em nosso site o que precisa para seu aperfeiçoamento!</p>
+   <input type="search" class="baner_pesquisa" placeholder="Qual área você quer se especializar?">
+ </section>
+ 
+ <section class="carrosel">
+   <h2 class="carrosel_titulo">Novos lançamentos!</h2>
+   <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="banners/front yuronoa.png" alt="banner-yuronoa"></div>
+        <div class="swiper-slide"><img src="banners/Gestão2.png" alt="banner-randon2"></div> 
+        <div class="swiper-slide"><img src="banners/back yujasta.png" alt="banner-yujasta"></div>
+        <div class="swiper-slide"><img src="banners/Gestão.png" alt="banner-randon1"></div> 
+        <div class="swiper-slide"><img src="banners/ia matheus.png" alt="banner-paisen"></div>           
+      </div>
+      
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      
+
+ </section>
+
+ 
+ 
+ 
+ <main class="corpo">
+    <h1 class="corpo_titulo"></h1>
+
+ </main>
+ 
+ 
+ 
+ 
+ <footer class="">
+
+ </footer>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+ <script>
+   const swiper = new Swiper('.swiper', {
+  speed: 200,
+  spaceBetween: 10,
+  slidesPerView: 2,
+  pagination: {
+   el: '.swiper-pagination',
+   type: 'bullets',}
+  
+    
+  });
+ </script>   
+
+</body>
+</html>
